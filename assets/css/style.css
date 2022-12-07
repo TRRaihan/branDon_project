@@ -115,15 +115,18 @@ h3{
     background-position: center center;
     background-size: cover;
 }
-.testIndicate .carousel-indicators li{
+.testi .carousel-indicators {
+    bottom: -30px!important;
+    height: 8px!important;
+}
+.testi .carousel-indicators button{
     background-color: #e90102 !important;
     opacity: 1;
-    height: 12px;
+    height:10px;
     width: 50px;
-    /* border-radius: 20px; */
-    margin: 0px -1px 0px -1px;
+    /* border-radius: !important; */
 }
-.testIndicate .carousel-indicators li.active{
+.testi .carousel-indicators button.active{
     background-color: black !important;
 }
 /* testi end */
